@@ -5,12 +5,13 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     height:100% ;
+    background-image: url('imgs/wall.jpg');
   }
   
   /* Style the header */
   header {
-    background-color: #666;
-    padding: 30px;
+    background-color: none;
+    padding: 15px;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -20,22 +21,25 @@
   nav {
     float: left;
     width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+    height: 100%; /* only for demonstration, should be removed */
+    background: rgba(255 , 255, 255, 0.3);
     padding: 20px;
+    border-radius: 8px;
   }
   
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
     padding: 0;
+    color: white;
   }
   
   article {
+    border-radius: 8px;
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: none;
     height: 300px; /* only for demonstration, should be removed */
   }
   
@@ -48,7 +52,7 @@
   
   /* Style the footer */
   footer {
-    background-color: #777;
+    background-color: none;
     padding: 10px;
     text-align: center;
     color: white;
@@ -62,6 +66,10 @@
     }
   }
 
+section{
+  height: 100%;
+
+}
 
 nav ul h3{
     float: right;
@@ -72,14 +80,35 @@ nav ul h3{
     width: 50px;
 }
 
-article{
-    display: flex;
+
+.partitura{
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-image: url('imgs/partiture.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
-article div{
+
+.btn{
     margin: 2%;
-    height: 100px;
-    width: 100px;
-    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    background-image: url('imgs/buton_img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.butons{
+  display: flex;
+  padding-top: 150px;
+  height: 41vh;
+}
+.warpper{
+  height: 100%;
 }
 
 
