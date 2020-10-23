@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xilofon Hero</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,25 +15,43 @@
     <header>
       <h2>Xilofon Hero</h2>
     </header>
+
+    <div class="wrapper">
+
+
+      <ul>
+        <div class="menu">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down  material-icons">menu</i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Canço 1</a>
+              <a href="#">Canço 2</a>
+              <a href="#">Canço 3</a>
+            </div>
+          </div>
+          <li><i class="material-icons">fast_rewind</i></li>
+          <li><i class="material-icons">play_arrow</i></li>
+          <li><i class="material-icons">fast_forward</i></li>
+          <li><i>NOW PLAYING:</i></li>
+        </div>
+        <div class="slide-left">
+          <p> HAPPY BIRTHDAY</p>
+        </div>
+      </ul>
+
+    </div>
+
     <section>
       <nav>
         <ul>
           <h3>Punts: 150</h3>
           <li><img src="imgs/Profile.png" height="120px" width="120px"></li>
           <li>
-            <p>Dada 1</p>
-          </li>
-          <li>
-            <p>Dada 2</p>
-          </li>
-          <li>
-            <p>Dada 3</p>
-          </li>
-          <li>
-            <p>Dada 4</p>
+            <p>Name</p>
           </li>
         </ul>
-
       </nav>
 
       <article>
@@ -40,14 +59,14 @@
       </article>
 
       <article class="butons">
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
+        <div id="btn1" class="btn btn1"></div>
+        <div id="btn2" class="btn btn2"></div>
+        <div id="btn3" class="btn btn3"></div>
+        <div id="btn4" class="btn btn4"></div>
+        <div id="btn5" class="btn btn5"></div>
+        <div id="btn6" class="btn btn6"></div>
+        <div id="btn7" class="btn btn7"></div>
+        <div id="btn8" class="btn btn8"></div>
       </article>
 
     </section>
@@ -56,6 +75,8 @@
       <p>Peu de pagina</p>
     </footer>
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
