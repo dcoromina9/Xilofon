@@ -7,8 +7,6 @@ var btn6 = document.getElementById("btn6");
 var btn7 = document.getElementById("btn7");
 var btn8 = document.getElementById("btn8");
 
-
-
 function animation(e){
   e.classList.remove("bounce");
   e.offsetWidth = btn1.offsetWidth;
@@ -114,3 +112,4 @@ btn8.addEventListener("click",function() {
   audio.play();
   animation(btn8);
 });
+
